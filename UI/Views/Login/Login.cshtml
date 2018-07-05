@@ -1,0 +1,73 @@
+﻿<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+    <link href="~/Content/Login.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-3.3.1.js"></script>
+</head>
+<body>
+    <div id="first" class="container">
+        <header class="row">
+            <div id="chopLogo" class="col-lg-1 col-md-1 col-sm-2">
+                <img src="~/Content/Image/Chopwela2-Recovered.png" class="img-responsive" />
+            </div>
+        </header>
+    </div>
+    <div class="row" id="second">
+        @*<div id="admin">
+                <a href="#" id="adminLink">Admin</a>
+            </div>
+            <div id="vendor">
+                <a href="#" id="vendorLink">Vendor</a>
+            </div>
+             <div class="clear"></div>*@
+        <div class="col-sm-6">
+            <a href="#" class="active" id="adminLink">Admin</a>
+        </div>
+        <div class="col-sm-6">
+            <a href="#" class="active" id="vendorLink">Vendor</a>
+        </div>
+    </div>
+
+
+    <div class="row" id=" third">
+       
+           
+                <div class="form-group text-center">
+                    <label for="username">Username</label>
+                    <input type="text" name="username" id="username" tabindex="1" class="form-control " placeholder="Username" value="">
+                </div>
+                <div class="form-group text-right text-center ">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" tabindex="2" class="form-control " placeholder="Password">
+                </div>
+                <div class="form-group text-center">
+                    <input type="checkbox" tabindex="3" class="" name="remember" id="remember">
+                    <label for="remember"> Remember Me</label>
+                </div>
+                <div class="form-group">
+                    @*<div class="row">
+                            <div class="col-sm-6 col-sm-offset-3">
+                                <input type="submit" name="Admin-submit" id="Admin-submit" tabindex="4" class="form-control btn btn-login" value="Admin Login">
+                            </div>
+                        </div>*@
+                    <div class='panel-heading text-center panel-relative'>
+                        <input type="submit" name="Admin-submit" id="Admin-submit" tabindex="4" class="form-control btn btn-login" value="Admin Login">
+
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
